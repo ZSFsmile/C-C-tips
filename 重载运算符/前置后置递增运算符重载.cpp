@@ -21,7 +21,7 @@ public:
 private:
     int num;
 };
-ostream& operator<<(ostream& cout,Person m)
+ostream& operator<<(ostream& cout,Person m)//重载<<
 {
     cout<<m.num;
     return cout;
